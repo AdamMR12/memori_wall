@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Verifikasi Email')
+@section('title', 'Verifikasi Email - Web Kelas')
 
 @section('content')
 <div class="max-w-md mx-auto bg-white rounded-lg shadow p-6 text-center">

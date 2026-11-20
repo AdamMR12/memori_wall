@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Login')
+@section('title', 'Login - Web Kelas')
 
 @section('content')
 <div class="max-w-md mx-auto bg-white rounded-lg shadow p-6">

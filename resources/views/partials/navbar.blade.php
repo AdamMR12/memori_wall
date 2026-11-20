@@ -6,7 +6,7 @@
             <div class="flex items-center gap-6">
                 <a href="{{ route(auth()->user()->dashboardRoute()) }}"
                    class="font-bold text-lg text-indigo-600">
-                    📌 Memory Wall
+                    Web Kelas
                 </a>
 
                 <div class="hidden md:flex items-center gap-1">
@@ -15,13 +15,6 @@
                         Dashboard
                     </a>
 
-                    {{-- Placeholder: ganti '#' dengan route saat fiturnya sudah dibuat --}}
-                    <a href="#" class="px-3 py-2 rounded text-sm text-gray-400 cursor-not-allowed" title="Segera">
-                        Memory Wall
-                    </a>
-                    <a href="#" class="px-3 py-2 rounded text-sm text-gray-400 cursor-not-allowed" title="Segera">
-                        Tambah Memori
-                    </a>
                 </div>
             </div>
 
@@ -60,9 +53,6 @@
                class="block px-3 py-2 rounded text-sm bg-gray-100 text-gray-700">
                 Dashboard
             </a>
-            <a href="#" class="block px-3 py-2 rounded text-sm text-gray-400">Memory Wall</a>
-            <a href="#" class="block px-3 py-2 rounded text-sm text-gray-400">Tambah Memori</a>
-
             <form method="POST" action="{{ route('logout') }}">
                 @csrf
                 <button class="block w-full text-left px-3 py-2 rounded text-sm text-red-600 hover:bg-red-50">

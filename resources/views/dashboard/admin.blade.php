@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Dashboard Admin')
+@section('title', 'Dashboard Admin - Web Kelas')
 
 @section('content')
 <div class="bg-white rounded-lg shadow p-6 mb-6">
